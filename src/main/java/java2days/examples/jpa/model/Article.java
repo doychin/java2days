@@ -8,11 +8,6 @@ import lombok.*;
 
 @Entity
 @Table(name = "ARTICLE")
-@Data
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
-// @ToString(exclude = "author")
 public class Article {
     @Id
     private int articleId;

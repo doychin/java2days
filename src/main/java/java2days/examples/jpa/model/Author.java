@@ -8,12 +8,8 @@ import java.util.List;
 import lombok.*;
 import lombok.experimental.Wither;
 
-@Data
 @Table(name = "AUTHOR")
 @Entity
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
 public class Author {
 
     @Id
@@ -23,5 +19,5 @@ public class Author {
     private String name;
 
     @OneToMany(mappedBy = "author")
-    @Singular List<Article> articles = new ArrayList<>();
+    List<Article> articles = new ArrayList<>();
 }
