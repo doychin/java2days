@@ -1,8 +1,6 @@
 package java2days.examples.lombok;
 
-import java.io.Serializable;
-
-public class Person implements Serializable {
+public class Person {
 
     private int key;
 

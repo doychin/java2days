@@ -12,6 +12,9 @@ import static java.util.Arrays.asList;
 public class StackOverflowErrorExample {
 
     public static void main(String[] args) {
+        // Uncomment this after adding Lombok annotations to entity beans
+
+
 //        Author author = Author.builder().id(1).name("Doychin Bondzhev").build();
 //        System.out.println("author.articles value is " + author.getArticles());
 //
